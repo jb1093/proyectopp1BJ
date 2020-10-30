@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGNOLIAS</title>
+    <link type="text/css" rel="stylesheet" href="principal-css.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects Daughter" rel="stylesheet"><!--Para usar otras fuentes-->
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
+
+    <script>
+        setInterval(carrousel, 3000);
+            var foto=1;
+            function carrousel(){
+                if (foto==1){
+                    document.getElementById("1").hidden=true;
+                    document.getElementById("2").hidden=false;  
+                    foto=2;
+                } else if (foto==2){
+                    document.getElementById("2").hidden=true;
+                    document.getElementById("3").hidden=false;
+                    foto=3; 
+                } else if (foto==3){
+                    document.getElementById("3").hidden=true;
+                    document.getElementById("1").hidden=false;
+                    foto=1; 
+                }
+            
+
+            }
+    </script>
+</head>
+<body class="tamanio-pag">
+    
+    <header>
+        <p class="p1">Magnolias cuando quieras y donde quieras</p><!--Frase conmovedora-->
+        <img src="img/LogoMagnolias.JPG" class="logohdr">
+        <nav> 
+            <a href="#"> Inicio </a>
+            <a href="#"> Nosotras </a>
+            <a href="#">  Indumentaria </a>
+            <a href="#">  Cómo comprar </a>
+            <a href="#">  Contacto</a>
+        </nav>
+        <div class="divbuscador"> 
+        <input type="search" id="search" name="search" placeholder="¿Qué estas buscando?" class="buscador">
+        <input type="button" id="btnBuscar" value="Buscar" >
+        </div>
+        <!--<div class="divbotonNav">
+            <input type="button" id="btnCuenta" >
+            <input type="button" id="btnCarrito">
+        </div>-->
+
+    </header>
+
+    <main>
+        <section>
+            <div class="timer">
+                <img src="img/timer1.png" id="1" alt="" srcset="">
+                <img src="img/timer2.png" id="2" alt="" srcset="" hidden>
+                <img src="img/timer3.png" id="3" alt="" srcset="" hidden>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+        <!--<label class="pieTitulo">MI CUENTA</label>
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Registrarse</a></li>
+        </ul>-->
+        <div class="pieTitulo">
+            <h4>Atención al cliente</h4>
+        
+            <p><a href="#">¿Cómo comprar?</a></p>
+            <p><a href="#">Preguntas frecuentes</a></p>
+        </div>
+        
+        <div class="pieTitulo">
+            <h4>Contactanos</h4>
+            <div class="img-contacto">
+            <p><img src="img/ig.png"  ><a href="https://www.instagram.com/magnoliasok_/?hl=es-la">Instagram</a></p>
+            <p><img src="img/facebook.png" ><a href="https://www.facebook.com/magnoliasok_-314871022544014">Facebook</a></p>
+            <p><img src="img/whatsapp.png" ><a href="https://api.whatsapp.com/send?phone=5401162156608&text=Gracias%20por%20comunicarte%20con%20MAGNOLIAS,%20en%20qu%C3%A9%20podemos%20ayudarte?">011-1111-1111</a></p>
+            <p><img src="img/e-mail.png"><a href="#">magnolias@gmail.com</a></p>
+            <p><img src="img/ubica.png"><a href="https://goo.gl/maps/ibszEGtJiiGbo6a98">Ubicación</a></p>
+            </div>
+
+        </div>
+            
+        <div class="pieTitulo">        
+            <h4>Medios de pago</h4>
+            <div class="img-tarjeta">
+                <img src="img/mcp.JPEG">
+                <img src="img/visa.JPEG">
+                <img src="img/master.JPEG">
+                <img src="img/american.JPEG"> 
+            </div>
+            <h4>Medios de envío</h4>
+            <div class="img-envio">
+                <img src="img/moto-mensajeria.png">
+                <img src="img/correo-argentino.jpg">
+
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
+
+    

@@ -1,5 +1,5 @@
 .tamanio-pag{
-    width: 1342px;
+    width: 1200px;
     margin: auto;
 }
 body{
@@ -110,6 +110,12 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
+/*-------------------------CUERPO------------------------------------------------------------------------*/
+.timer img{
+    width: 1200px;
+    height: 848px;
+    background-position: center;
+}
 /*------------------------PIE DE PAGINA---------------------------------------------*/
 footer{
     color: black; 
@@ -145,7 +151,7 @@ footer{
 }
 .pieTitulo a{
     text-decoration: none;
-    color: rgba(19, 15, 15, 0.452);
+    color: rgba(19, 15, 15, 0.527);
     vertical-align: middle;
 }
 .img-tarjeta img{
@@ -157,4 +163,8 @@ footer{
     height: 30px;
     margin-right: 10px;
     vertical-align: middle;
+}
+.img-envio img{
+    width: 50px ;
+    height: 40px ;
 }
