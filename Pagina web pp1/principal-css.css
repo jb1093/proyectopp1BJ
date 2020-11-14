@@ -1,0 +1,200 @@
+.tamanio-pag{
+    width: 1200px;
+    margin: auto;
+}
+body{
+    margin: 0px;
+}
+/*-----------------CABECERA--------------------------------------------------------------------*/
+header{
+    height: 30vh;
+    /*background-color: thistle;*/
+   }
+img{
+    cursor: pointer;
+}
+.p1{
+    background-color: plum;
+    font-family: 'Architects Daughter';font-size: 18px; /*Cambio de fuente*/
+    margin: 0px 0px;
+    text-align: center;
+    color: seashell;
+}
+.logohdr{
+    width: 15%;
+   
+}
+nav a{
+    font-family: 'Carrois Gothic SC';
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(53, 52, 52, 0.993);
+       
+}
+nav{
+    width: 40%;
+    position: relative;
+    left: 200px;
+    top:-65px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-around;
+}
+a:hover{
+    color:  rgb(243, 13, 193);
+}
+.buscador{
+    width: 75%;
+    margin: 100px 0px;
+        
+}
+#btnBuscar{
+    background-color: plum;
+    color: seashell;
+    border: plum;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 7px;
+    font-family: 'Architects Daughter';font-size: 14px;
+    box-shadow: 0 8px 16px 0 rgba(78, 6, 48, 0.2), 0 6px 20px 0 rgba(109, 36, 81, 0.19);/*para darle sombra*/
+}
+#btnBuscar:hover{
+    background-color: rgb(243, 13, 193);
+    /*background-color: plum; prueba de color*/
+}
+.divbuscador{
+    position: relative;
+    left: 750px;
+    top: -183px;
+    /*background-color: red;*/
+    width: 70vh;
+    height: 20vh;
+
+}
+#btnCuenta{
+    background-image: url("./ImagenesPagina/icono\ usuario1.png");
+    background-color: white;
+    border-radius: 8px;
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+
+}
+#btnCuenta:hover{
+    background-color: rgb(238, 59, 199);
+}
+#btnCarrito{
+    background-image: url("./ImagenesPagina/icono\ compra1.png");
+    background-color: white;
+    border-radius: 8px;
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+#btnCarrito:hover{
+    background-color: rgb(238, 59, 199) ;
+}
+
+.divbotonNav{
+    position: relative;
+    left: 90%;
+    top:-260px; 
+    /*background-color: rgb(219, 34, 34);*/
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+/*-------------------------------------------FIN CABECERA-----------------------------------------------------------*/
+/* Menu desplegable--------------*/
+.menu-catalogo{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1
+}
+.menu-catalogo a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.menu-catalogo a:hover {background-color:  rgb(243, 13, 193);}
+
+.menu-desplegable:hover .menu-catalogo {
+  display: block;
+}
+/*-Fin menu desplegable--------------------------------------------------------*/
+/*-------------------------CUERPO------------------------------------------------------------------------*/
+.timer img{
+    width: 1200px;
+    height: 848px;
+    
+}
+.wp { /*para poner un botón fijo*/
+    position: fixed;
+    bottom: 15px ;
+    right: 17px;
+    
+
+}
+/*------------------------PIE DE PAGINA---------------------------------------------*/
+footer{
+    color: black; 
+    background-color: rgb(214, 219, 221);
+    box-sizing: border-box ;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /*width: 100%;*/
+    
+}
+
+.pieTitulo{
+    /*padding: 10px 10px 10px 10px;*/
+    /*width: 33%;*/
+
+   
+}
+
+.pieTitulo h4{
+    font-family: 'Carrois Gothic SC';
+    font-size: 1 rem;
+    font-weight: 100;
+    /*font-family: 'Bebas Neue';font-size: 14px;*/
+}
+
+.pieTitulo p{
+    font-family: 'Bebas Neue';
+    font-size: 0.9rem;
+    font-weight: 100;
+    
+    
+}
+.pieTitulo a{
+    text-decoration: none;
+    color: rgba(19, 15, 15, 0.527);
+    vertical-align: middle;
+}
+.img-tarjeta img{
+    width: 42px;
+    height: 32px;
+}
+.img-contacto img{
+    width: 30px ;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.img-envio img{
+    width: 50px ;
+    height: 40px ;
+}
